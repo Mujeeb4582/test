@@ -12,50 +12,6 @@
 		/>
 
 		<title>SelfUpGrade</title>
-		<style>
-			body {
-				font-family: "Roboto", sans-serif;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				margin: 0;
-			}
-
-            footer {
-                padding: 40px 0;
-            }
-
-			.container {
-				display: flex;
-				justify-content: space-between;
-				padding: 20px;
-				gap: 6rem;
-			}
-
-			.col {
-				flex: 1;
-				margin: 0 10px;
-			}
-
-			h2 {
-				color: rgb(32, 57, 183);
-			}
-
-			h4 {
-				color: rgb(24, 24, 69);
-			}
-
-			ul {
-				list-style-type: none;
-				padding: 0;
-				color: gray;
-			}
-
-			li {
-				margin: 16px 0;
-				font-size: 14px;
-			}
-		</style>
 	</head>
 	<body>
 		<header>
@@ -77,7 +33,7 @@
 					<li><a href="#">Membership</a></li>
 				</ul>
 				<div class="icon">
-					<i class="fal fa-shopping-cart"></i>
+					<i class="fa fa-cart-shopping"></i>
 					<!-- Corrected class name for the shopping cart icon -->
 				</div>
 			</nav>
@@ -164,19 +120,32 @@
 				<i class="fas fa-solid fa-quote-left"></i>
 				<div class="slide">
 					<div class="slide-text">
-						<h2>
-							With Udemy Business employees were able to marry the two together,
-							technology and consultant soft skill. We are thankful that once
-							they got in and took their key IT course on AWS, Azure, Google
-							Cloud, Big Data, and DevOps that they definitely moved over the
-							consulting courses to help drive their career forward.
-						</h2>
+						<div style="position: relative; max-width: 400px">
+							<p>
+								With Udemy Business
+								<strong
+									>employees were able to marry the two together, technology and
+									consultant soft skill.</strong
+								>
+								We are thankful that once they got in and took their key IT
+								course on AWS, Azure, Google Cloud, Big Data, and DevOps that
+								they definitely moved over to consulting courses to help drive
+								their career forward.
+							</p>
+							<div style="position: absolute; left: 0; bottom: 20px">
+								<a href="#">Read full story</a>
+							</div>
+						</div>
 						<div class="testimonial">
 							<div class="testimonial-info">
-								<img src="image/man.jpg" alt="Ian Stevens" />
+								<img src="image/professor.jpg" alt="Ian Stevens" />
 								<h3>Ian Stevens</h3>
-								<p>Global Head of Capability Development North America</p>
-								<p>Publicis Sapient</p>
+								<p style="color: gray; margin: 0;">
+									Global Head of Capability Development <br />
+									North America <br />
+									<br />
+									<span style="color: #000">Publicis Sapient</span>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -187,6 +156,7 @@
 				</div>
 			</div>
 		</section>
+		<p><strong><a style="text-decoration: none;" href="#">View more customer stories ></a></strong></p>
 		<footer>
 			<div class="container">
 				<div>
@@ -245,7 +215,11 @@
 						src="./image/appStore.png"
 						alt="AppStore"
 					/>
-					<img style="width: 160px" src="./image/googlePlay.png" alt="GooglePlay" />
+					<img
+						style="width: 160px"
+						src="./image/googlePlay.png"
+						alt="GooglePlay"
+					/>
 				</div>
 				<div
 					style="
